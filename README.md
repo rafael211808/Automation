@@ -21,3 +21,22 @@ This repository automates the web interface hosted at `https://rafael211808.gith
 ```text
 ├── main.py         # Automation script
 └── products.csv    # Product dataset used to populate the form
+```
+
+## ⚙️ How to Run
+1. Install the required dependencies:
+
+```text
+Bash
+pip install pyautogui pandas
+```
+
+2. Make sure products.csv is in the same directory as main.py with the expected columns (code, brand, type, category, unit_price, cost, note)[cite: 6].
+
+3. Keep the screen/browser unobstructed during execution and run:
+
+```text
+Bash
+python main.py
+```
+
